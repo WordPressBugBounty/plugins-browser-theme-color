@@ -3,9 +3,9 @@ Contributors: Milmor
 Tags: browser, theme, color, android, mobile
 Donate link: https://www.paypal.me/milesimarco
 Requires at least: 3.8
-Tested up to: 6.6
-Version: 1.4.1
-Stable tag: 1.4.1
+Tested up to: 6.9
+Version: 1.5
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,14 @@ You can set the color in the plugin settings screen (Settings -> Browser Color).
 2. Topbar example in Android Chrome [developers.google.com](https://developers.google.com/web/fundamentals/design-and-ui/browser-customization/theme-color)
 
 == Changelog ==
+
+= 1.5 2025-05-26 =
+* Tested up to latest WP
+* Refactored plugin to use an object-oriented approach for better maintainability.
+* Improved code security and WordPress best practices (escaping, sanitization, capability checks).
+* Enhanced the settings page UI and validation.
+* Integrated the color picker initialization as inline JavaScript for reliability.
+* Cleaned up and modernized code style throughout the plugin.
 
 = 1.4.1 2024-05-24 =
 * Minor changes
